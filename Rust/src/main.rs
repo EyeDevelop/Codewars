@@ -1,7 +1,6 @@
-mod highest_lowest;
-use highest_lowest::highest_lowest;
+mod stop_spinning_my_words;
 
 fn main() -> Result<(), std::io::Error> {
-    println!("{}", highest_lowest("1 2 3 4 5"));
+    println!("{}", stop_spinning_my_words::stop_spinning_my_words("Hey fellow warriors"));
     Ok(())
 }
